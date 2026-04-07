@@ -8,7 +8,7 @@ A professional-grade Arduino project that simulates a real-world vehicle parking
 
 * **Dynamic Alert Logic:** The buzzer's frequency and pulse duration change proportionally as the object gets closer, mimicking high-end automotive sensors.
 * **Visual Interface:** Real-time distance data is displayed on a 16x2 I2C LCD screen with automated buffer clearing to prevent character ghosting.
-* **Tri-Color Status LED:**
+* **LED Color Status:**
     * 🔴 **Red (Stop):** Critical proximity (<20cm).
     * 🟡 **Yellow (Caution):** Approaching obstacle (20cm - 50cm).
     * 🟢 **Green (Clear):** Path is clear (>50cm).
